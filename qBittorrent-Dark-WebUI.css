@@ -1,12 +1,9 @@
-/* Change the url 'http://192.168.1.10/torrent/' with what you use to access to the qBittorrent WebUI, this is an example.
-----------------------------------------------------------------------------------------------*/
-
-/* Dark qBittorrent WebUI by Felix
+/* Dark qBittorrent WebUI by Felix (ispired by Cozzy's theme: userstyles.org/styles/152766)
     
             1.0.0 (03/06/2018) - first release
     
 ----------------------------------------------------------------------------------------------*/
-@-moz-document url-prefix("http://192.168.1.10/torrent/") {
+
 /* COLORS */
  :root {
     --color-Dark: #1D1D1D;
@@ -290,5 +287,4 @@ div#aboutpage_content.mochaContent h3:nth-child(2)::after {
     white-space: pre;
     font-weight: normal;
     color: darkgreen;
-}
 }
