@@ -2,14 +2,11 @@
 **_A darker theme for qBittorrent WebUI_ (ispired by [Cozzy's theme])**
 
 [![preview][preview]][1]
-# Menu
-* [Installation]
-* [Screenshot]
 # Installation
 * Download one of these add-ons for your browser
   * Stylus (recommended): [Firefox][7], [Chrome][8],  or [Opera][9].
   * Stylish: [Firefox][10], [Chrome][11],  or [Opera][12].
-* Click [here][2] install directly with Stylus, or go to [userstyles.org][3] and click on "Install Style" button.
+* Click [here][2] to install directly with Stylus, or go to [userstyles.org][3] and click on "Install Style" button to install with Stylish.
 * Done! From now on it will automatically update.
 
 [version]: https://img.shields.io/badge/version-1.0.0-ED1C24.svg?longCache=true&style=flat-square
@@ -26,8 +23,6 @@
 [6]: https://creativecommons.org/licenses/by-sa/4.0/
 [Cozzy's theme]: https://userstyles.org/styles/152766/
 [preview]: https://i.imgur.com/M3TAp0l.png
-[Installation]: ../master/README.md#installation
-[Screenshot]: ../master/README.md#screenshot
 [7]: https://addons.mozilla.org/firefox/addon/styl-us/
 [8]: https://chrome.google.com/webstore/detail/clngdbkpkpeebahjckkjfobafhncgmne
 [9]: https://addons.opera.com/extensions/details/stylus/
