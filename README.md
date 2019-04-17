@@ -2,13 +2,23 @@
 **_A darker theme for qBittorrent WebUI_ (ispired by [Cozzy's theme])**
 
 [![preview][preview]][1]
-# Installation
-* Download one of these add-ons for your browser
-  * Stylus (recommended): [Firefox][7], [Chrome][8],  or [Opera][9].
-  * Stylish: [Firefox][10], [Chrome][11],  or [Opera][12].
-* Click [here][2] to install directly with Stylus, or go to [userstyles.org][3] and click on "Install Style" button to install with Stylish.
-* Done! From now on it will automatically update.
-
+# Installation (one of two ways)
+1. Download one of these add-ons for your browser
+   * Stylus (recommended): [Firefox][7], [Chrome][8],  or [Opera][9].
+   * Stylish: [Firefox][10], [Chrome][11],  or [Opera][12].
+   * Click [here][2] to install directly with Stylus, or go to [userstyles.org][3] and click on "Install Style" button to install with Stylish.
+   * Done! From now on it will automatically update.
+2. Use Alternative WebUI in  qBittorrent
+   * Follow the instructions to use [Alternate WebUI usage][13] 
+   * Copy dark-qbittorrent-webui.user.css to `<new folder>/public/css`
+   * Edit `<new folder>/public/index.html` 
+     
+     Add `<link rel="stylesheet" type="text/css" href="css/dark-qbittorrent-webui.css?v=${VERSION}" \>` after the other CSS links in header.
+   * Copy dark-qbittorrent-webui.css to `<new folder>/private/css`
+   * Edit `<new folder>/private/index.html`
+     
+     Add `<link rel="stylesheet" type="text/css" href="css/dark-qbittorrent-webui.css?v=${VERSION}" \>` after the other CSS links in header.
+ 
 [version]: https://img.shields.io/badge/version-1.0.0-ED1C24.svg?longCache=true&style=flat-square
 [1]: #
 [stylus]: https://img.shields.io/badge/install%20directly%20with-Stylus-00adad.svg?longCache=true&style=flat-square "Click here!"
@@ -29,3 +39,4 @@
 [10]: https://addons.mozilla.org/firefox/addon/stylish/
 [11]: https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe
 [12]: https://addons.opera.com/extensions/details/stylish/
+[13]: https://github.com/qbittorrent/qBittorrent/wiki/Alternate-WebUI-usage
