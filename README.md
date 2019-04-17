@@ -9,15 +9,13 @@
    * Click [here][2] to install directly with Stylus, or go to [userstyles.org][3] and click on "Install Style" button to install with Stylish.
    * Done! From now on it will automatically update.
 2. Use Alternative WebUI in  qBittorrent
-   * Follow the instructions to use [Alternate WebUI usage][13] 
-   * Copy dark-qbittorrent-webui.user.css to `<new folder>/public/css`
-   * Edit `<new folder>/public/index.html` 
-     
+   * Follow the instructions to use [Alternate WebUI usage][13].
+   * Copy dark-qbittorrent-webui.user.css to `<new folder>/public/css`.
+   * Edit `<new folder>/public/index.html`.  
      Add `<link rel="stylesheet" type="text/css" href="css/dark-qbittorrent-webui.css?v=${VERSION}" \>` after the other CSS links in header.
-   * Copy dark-qbittorrent-webui.css to `<new folder>/private/css`
-   * Edit `<new folder>/private/index.html`
-     
-     Add `<link rel="stylesheet" type="text/css" href="css/dark-qbittorrent-webui.css?v=${VERSION}" \>` after the other CSS links in header.
+   * Copy dark-qbittorrent-webui.css to `<new folder>/private/css`.
+   * Edit `<new folder>/private/index.html`.       
+     Add `<link rel="stylesheet" type="text/css" href="css/dark-qbittorrent-webui.css?v=${VERSION}" \>` after the other CSS links in header.  
  
 [version]: https://img.shields.io/badge/version-1.0.0-ED1C24.svg?longCache=true&style=flat-square
 [1]: #
