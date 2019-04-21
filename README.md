@@ -10,7 +10,7 @@
    * Done! From now on it will automatically update.
 2. Use Alternative WebUI in  qBittorrent
    * Follow the instructions to use [Alternate WebUI usage][13].
-   * Copy dark-qbittorrent-webui.user.css to `<new folder>/public/css`.
+   * Copy dark-qbittorrent-webui.css to `<new folder>/public/css`.
    * Edit `<new folder>/public/index.html`.  
      Add `<link rel="stylesheet" type="text/css" href="css/dark-qbittorrent-webui.css?v=${VERSION}" \>` after the other CSS links in header.
    * Copy dark-qbittorrent-webui.css to `<new folder>/private/css`.
